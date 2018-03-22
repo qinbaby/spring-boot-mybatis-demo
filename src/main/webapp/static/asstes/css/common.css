@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+*{
+    font-family: "Microsoft YaHei";
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+/* 验证提示样式 */
+.help-block.with-errors {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.form-group.has-feedback{
+    padding: 5px;
+}
+
+/* 面包屑导航  */
+ol.breadcrumb {
+    margin-top: 15px;
+    background-color: transparent;
+    background-image: url(../images/navbar.jpg);
+    margin-bottom: 0px;
+}
+ol.breadcrumb a,ol.breadcrumb span{
+    font-style: italic;
+    font-weight: bold;
+}
+ol.breadcrumb a{
+    font-size: 2rem;
+    color: #3267a9;
+}
+ol.breadcrumb a:focus, a:hover {
+    color: #3267a9;
+    text-decoration: none;
+}
+ol.breadcrumb > li + li::before {
+    color: transparent;
+    content: none;
+    padding: 0;
+}
+ol.breadcrumb span{
+    font-size: 2rem;
+    color: #f39800;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+ol.breadcrumb .img-btn {
+    width: 80px;
+    height: 27px;
+}
+/* form#myForm .col-sm-6 {
+    max-height: 59px!important;
+} */
+
+.red{
+    color: #d9534f !important;
+}
+.green{
+    color: #5cb85c !important;
+}
+.margin-bottom{
+    margin-bottom:0px!important;
+}
+td ,lable.lable-size {
+    font-size: 13px;
+}
+
+/* 列表中连接的字体 */
+button.btn.btn-link{
+    font-size: 13px;
+}
+/* 加载状态样式  */
+.loader-inner.ball-pulse>div {
+    background: #c9dae1;
+}
+.input-style{
+    width: 65%!important;
+    height:30px;
+    font-size:smaller;
+}
+.space{
+    padding-left:0px;
+}
+
+/* 表单样式 */
+#myForm{
+    margin-top: 15px;
+}
+
+/* textarea 静止拖动  */
+textarea{
+    resize: none;
+}
+/* List搜索样式  */
+.fixed-table-toolbar .bs-bars {
+    line-height: normal;
+}
+/* List搜索样式  */
+.bs-bars.pull-left {
+    float: none !important;
+}
+.form-group.has-feedback {
+    padding: 0;
+}
+.control-label {
+    font-size: 13px;
+    font-weight: normal;
+}
+/* 引用form表单后的整个字体 */
+.form-control{
+    font-size:13px;
+    font-weight: normal;
+}
+/* 下拉菜单的字体 */
+.dropdown-toggle{
+    font-size:13px;
+}
+li.list-group-item,.treeview .list-group-item{
+    font-size:13px;
+    font-weight:normal;
+}
+
+.bs-bars.pull-left {
+    margin: 15px 0 0 0;
+}
+
+input#draw{
+    height:30px;
+}
+.addon-size {
+    padding: 6px 10px;
+}
+/* 多行文本框样式 */
+textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+/* 二级标题字体大小 */
+.title1{
+    font-size:14px;
+}
+#video{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
