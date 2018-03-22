@@ -27,6 +27,7 @@
             padding: 5%;
             padding-left: 5%;
             padding-right: 5%;
+
         }
         .mycenter mysign{
             width: 440px;
